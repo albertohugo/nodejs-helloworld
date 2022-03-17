@@ -59,6 +59,5 @@ git push heroku main
 ...
 
 -----> Launching... done
-
-       http://arcane-lowlands-8408.herokuapp.com deployed to Heroku
+http://arcane-lowlands-8408.herokuapp.com deployed to Heroku
        
