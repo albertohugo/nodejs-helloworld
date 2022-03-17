@@ -1,6 +1,6 @@
-How to install nodejs app in heroku
+# How to install nodejs app in heroku
 
-Prerequiriments:
+## Prerequiriments:
  - node installed
  - code in githug
  - account in heroku
@@ -8,20 +8,20 @@ Prerequiriments:
 cd nodejs-helloworld
 npm init
 
-# package.json is generated
+-> package.json is generated
 
-# Your package.json file will look something like this:
+## Your package.json file will look something like this:
 
 "engines": {
     "node": "14.x"
   },
   
-Build your app and run it locally
+## Build your app and run it locally
 
 npm install
 heroku local web
 
-How to keep build artifacts out of git
+## How to keep build artifacts out of git
 
 Prevent build artifacts from going into revision control by creating a .gitignore file that looks something like this:
 
@@ -30,7 +30,7 @@ npm-debug.log
 .DS_Store
 /*.env
 
-Deploy your application to Heroku
+## Deploy your application to Heroku
 
 git add .
 git commit -m "Added a Procfile."
